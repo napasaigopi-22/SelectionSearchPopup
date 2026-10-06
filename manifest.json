@@ -1,1 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Custom Selection Search Toolbar",
+  "version": "1.0",
+  "description": "Displays a floating options menu upon highlighting text.",
+  "permissions": [],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "css": ["style.css"]
+    }
+  ]
+}
 
